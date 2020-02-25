@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.caja1{
+    overflow: hidden;
+    padding: 1rem;
+    background: rgb(194, 197, 221);
+}
+.item{
+    margin: 0.2rem;
+    padding: 0;
+    color: black;
+    float: left;
+}
+#enlaces{
+    word-spacing: 100px;
+}
+.item a{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.caja2{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    overflow: hidden;
+    padding: 1rem;
+    text-align: center;
+}
+.caja2 h1{
+    font-size: 2rem;
+}
+.item2{
+    margin: 1rem;
+    padding: 1rem;
+    color: black;
+    float: left;
+}
+.item2 h1{
+    font-size: 20px;
+}
+.caja3{
+    position: relative;
+    width: 80%;
+    top: 100%;
+    left: 10%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background: rgb(194, 197, 221);
+}
+.item3{
+    font-size: 10px;
+    margin: 1rem;
+    color: rgb(0, 0, 0);
+    float: left;
+}
+.icon{
+    cursor: pointer;
+    width: 20px;
+}
+.boton{
+    color: white;
+    margin: 5px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 4px;
+}
+a.btn{
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    overflow: hidden;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: all ease 0.5s;
+    background:rgb(49, 49, 49);
+    }
+    a.btn:hover{
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    color: black;
+    background:rgb(255, 251, 0)
+    }
